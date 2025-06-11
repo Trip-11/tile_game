@@ -39,6 +39,7 @@ class Game:
         #     for line in f:
         #         self.map_data.append(line)
 
+
     def new(self):
         # initialize all variables and do all the setup for a new game
         self.all_sprites = pg.sprite.Group()
